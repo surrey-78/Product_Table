@@ -1,0 +1,36 @@
+.body-style{
+    background-color: #f9f9f9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table-style{
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+
+.th-style{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.tbody-style{
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+tr:hover{
+    background-color: rgb(124, 231, 195);
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: rgb(235, 230, 230);
+}
+
+.caption-style{
+    font-weight: bold;
+    word-spacing: 2px;
+}
